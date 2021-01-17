@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".SobreBuelojobs">
+
+    <include layout="@layout/toolbarpersonalizado"/>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp"
+        app:cardElevation="5dp"
+        app:cardCornerRadius="5dp"
+        app:cardPreventCornerOverlap="false"
+        app:cardUseCompatPadding="true">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/minhacor"
+        android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/logob" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textSize="18sp"
+        android:text="O BueloJobs é um aplicativo para a divulgação de ofertas de emprego, oportunidades de formação e eventos de carácter educativo e de sensibilização.No Facebook está vinculado ao grupo PROCURA/OFERTAS DE EMPREGO GUINÉ-BISSAU cuja finalidade principal é a democratização do acesso a informações sobre vagas de emprego na Guiné-Bissau.Para informações adicionais, contate-nos através do email:"
+        android:textAlignment="center"
+        android:textColor="@color/azulbuelo" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:layout_marginBottom="8dp"
+            android:textColor="@color/azulbuelo"
+            android:textStyle="bold"
+            android:text="buelojobs@gmail.com"/>
+
+
+
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
+

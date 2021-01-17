@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1089166639752",
+    "project_id": "buelojobs",
+    "storage_bucket": "buelojobs.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1089166639752:android:c4e8c4b08a43c54fb6553d",
+        "android_client_info": {
+          "package_name": "com.buelojobs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1089166639752-crne2kipsufgk68va8s12rp2ne6v164h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.buelojobs",
+            "certificate_hash": "e0a6441c1b0fee6764671c1a8bb5a1854239294e"
+          }
+        },
+        {
+          "client_id": "1089166639752-15t19k0ms77u703mn8j54ge1lu9ul7o8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDib8_oeDbimfGtdBi2kj0r6gNQRQ269Us"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1089166639752-15t19k0ms77u703mn8j54ge1lu9ul7o8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
